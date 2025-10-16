@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic metadata and viewport setup for responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Browser tab title -->
+    <title>Estian Hattingh — Portfolio</title>
+
+    <!-- Favicon for site identity -->
+    <link rel="icon" href="logo-pictures/EH_Logo.svg" type="image/svg+xml" />
+
+    <!-- External CSS file for layout and styling -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Page heading -->
+    <h1>Estian Hattingh - Get In Touch!</h1>
+
+    <!-- Navigation bar linking to all major sections -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about-me.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="education-experience.html">Education & Experience Section</a>
+      <a href="contact-page.html">Get In Touch!</a>
+    </nav>
+
+    <!-- Section heading for contact area -->
+    <h2>Contact Me</h2>
+
+    <!-- Contact form for submitting name, email, and message -->
+    <form action="Send.php" method="post">
+      <!-- Name input -->
+      <label>Name:</label>
+      <br />
+      <input type="text" name="name" />
+      <br /><br />
+
+      <!-- Email input -->
+      <label>Email:</label>
+      <br />
+      <input type="email" name="email" />
+      <br /><br />
+
+      <!-- Message input area -->
+      <label for="message" style="font-weight: bold">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="60"
+        style="
+          width: 100%;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          padding: 8px;
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+        "
+      ></textarea>
+      <br /><br />
+
+      <!-- Submit button to send form data -->
+      <button type="submit">Send</button>
+      <br /><br />
+
+      <!-- Reset button to clear all form inputs -->
+      <button type="reset">Delete</button>
+    </form>
+
+    <!-- Footer with copyright and LinkedIn link -->
+    <footer class="site-footer">
+      <p>
+        &copy; 2025 <span class="nowrap">Hattingh Estian</span>. All rights
+        reserved. | Connect with me on
+        <a id="LinkedIn"
+          class="link-external"
+          href="https://www.linkedin.com/in/estian-hattingh-6aa015315"
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="LinkedIn profile of Estian Hattingh (opens in new tab)"
+          >LinkedIn</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

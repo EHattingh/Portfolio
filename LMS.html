@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic metadata and setup for the page -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Browser tab title -->
+  <title>Estian Hattingh — Portfolio</title>
+
+  <!-- Favicon for branding -->
+  <link rel="icon" href="logo-pictures/EH_Logo.svg" type="image/svg+xml" />
+
+  <!-- External stylesheet for page styling -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Main page heading -->
+  <h1>Estian Hattingh - Projects</h1>
+
+  <!-- NOTE: Unmatched closing </div> tag (no opening tag found) -->
+  </div>
+
+  <!-- Navigation bar linking to main site sections -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about-me.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="education-experience.html">Education & Experience Section</a>
+    <a href="contact-page.html">Get In Touch!</a>
+  </nav>
+
+  <!-- Project title and section headings -->
+  <h2>Student Database Management System — Project Report</h2>
+
+  <!-- Section: Introduction -->
+  <h3>1. Introduction</h3>
+  <p>
+    The Student Database Management System (SDMS) is a Microsoft Access–based project designed to simplify student
+    record management for schools and small educational institutions.
+    It acts as a mini Learning Management System (LMS) that stores and manages student details, parent information,
+    class structures, and departments in a centralized database.
+    <br><br>
+    The system provides an intuitive interface for users to add, edit, and print student data using custom-built forms.
+    Its goal is to make educational data more accessible and organized while ensuring data consistency and ease of use.
+  </p>
+
+  <!-- Screenshot image of the system -->
+  <img id="P1ShowcasePhotos" src="projects/1.Lms/Forms/Studentdb.png" alt="Studentdb">
+
+  <!-- Section: Objectives -->
+  <h3>2. Objectives</h3>
+  <p>The primary objectives of the system are:</p>
+  <ul>
+    <li>To create a centralized student database for efficient record-keeping.</li>
+    <li>To simplify data entry and retrieval for students, parents, and classes.</li>
+    <li>To enable quick access and search for any student record.</li>
+    <li>To allow report generation and printing of student profiles.</li>
+    <li>To maintain data integrity through relational links between tables.</li>
+  </ul>
+
+  <!-- Section: Tools and Technologies -->
+  <h3>3. Tools and Technologies Used</h3>
+  <ul>
+    <li>Microsoft Access — for database design, forms, and relationships.</li>
+    <li>Visual Basic for Applications (VBA) — for automation and form control.</li>
+    <li>Windows 10/11 Environment — for system testing and operation.</li>
+  </ul>
+
+  <!-- Section: Database Structure -->
+  <h3>4. Database Structure</h3>
+  <p>The database is built around four main tables and one query, each serving a specific function.</p>
+
+  <!-- Subsection: Main Tables -->
+  <h4>Main Tables</h4>
+  <ol id="NumList">
+    <li>Students Table – Stores all student-related details.</li>
+    <li>Parents Table – Records parent/guardian information.</li>
+    <li>Classes Table – Defines the available classes.</li>
+    <li>Departments Table – Lists academic departments.</li>
+  </ol>
+
+  <!-- Subsection: Relationships between tables -->
+  <h4>Relationships</h4>
+  <ul>
+    <li>Each student is linked to two parents and one class.</li>
+    <li>Each class belongs to a department.</li>
+    <li>Queries such as Students Extended combine these tables for reports.</li>
+  </ul>
+
+  <!-- Screenshot of database relationships -->
+  <img id="P1ShowcasePhotos" src="projects/1.Lms/Behind the scences/Screenshot 2025-10-15 223701.png" alt="Studentdb">
+
+  <!-- Section: User Interface Design -->
+  <h3>5. User Interface Design</h3>
+
+  <!-- Subsection: Department Form -->
+  <h4>a) Department Form</h4>
+  <p>This form manages department information, allowing users to create, save, and navigate records easily.
+    It ensures each class is associated with a specific department.</p>
+  <img id="P1ShowcasePhotos" src="projects/1.Lms/Forms/Department.png" alt="Department">
+
+  <!-- Subsection: Parents Form -->
+  <h4>b) Parents Form</h4>
+  <p>The Parents Form stores details of each student’s parent or guardian.</p>
+  <ul>
+    <li>Parent Name</li>
+    <li>Occupation</li>
+    <li>Address and Town</li>
+    <li>Parent Type (Mother/Father)</li>
+    <li>Gender</li>
+    <li>Telephone and Email</li>
+  </ul>
+  <img id="P1ShowcasePhotos" src="projects/1.Lms/Forms/Parents.png" alt="Parents">
+
+  <!-- Subsection: Classes Form -->
+  <h4>c) Classes Form</h4>
+  <p>The Classes Form manages class information, linking each class to a department.</p>
+  <img id="P1ShowcasePhotos" src="projects/1.Lms/Forms/Studentdb.png" alt="Studentdb">
+
+  <!-- Subsection: Student Information Form -->
+  <h4>d) Student Information Form</h4>
+  <p>Main form for entering and managing student details.</p>
+  <ul>
+    <li>Name, Gender, Date of Birth</li>
+    <li>Address and Hobby</li>
+    <li>Class/Stage</li>
+    <li>Parent selection (linked from Parents table)</li>
+    <li>Auto-generated Student Code and Name</li>
+    <li>Photo placeholder</li>
+  </ul>
+
+  <!-- List of form action buttons -->
+  <p>Functional buttons include:</p>
+  <ul>
+    <li><i>New Student</i> — Clears form for new entry.</li>
+    <li><i>Save</i> — Stores new student data.</li>
+    <li><i>Register New Parents</i> — Opens Parents Form.</li>
+    <li><i>Add New Class</i> — Opens Classes Form.</li>
+    <li><i>Print</i> — Generates a printable profile.</li>
+  </ul>
+
+  <!-- Screenshot of student information form -->
+  <img id="P1ShowcasePhotos" src="projects/1.Lms/Forms/Student Info.png" alt="Student Info.">
+
+  <!-- Subsection: Student Report -->
+  <h4>e) Student Report</h4>
+  <p>The Student Report displays formatted, printable information about each student.</p>
+  <img id="P1ShowcasePhotos" src="projects/1.Lms/Forms/StudentReport.png" alt="StudentReport.">
+
+  <!-- Section: Features Summary -->
+  <h3>6. System Features Summary</h3>
+  <table>
+    <tr>
+      <th>Feature</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th>Parent Management</th>
+      <th>Record and update parent/guardian data.</th>
+    </tr>
+    <tr>
+      <th>Class Management</th>
+      <th>Manage class titles and department associations.</th>
+    </tr>
+    <tr>
+      <th>Search Functionality</th>
+      <th>Quickly locate specific records via the search bar.</th>
+    </tr>
+    <tr>
+      <th>Code Automation</th>
+      <th>Generates unique student codes automatically.</th>
+    </tr>
+    <tr>
+      <th>Report Printing</th>
+      <th>Create and print individual student profiles.</th>
+    </tr>
+    <tr>
+      <th>Data Linking</th>
+      <th>Maintains relationships between Students, Parents, and Classes.</th>
+    </tr>
+  </table>
+
+  <!-- Section: Benefits -->
+  <h3>7. Benefits</h3>
+  <ul>
+    <li>Simple, user-friendly interface for administrators and teachers.</li>
+    <li>Reduces paperwork and manual record-keeping.</li>
+    <li>Facilitates quick data retrieval and report generation.</li>
+    <li>Provides a base for expanding into a full LMS.</li>
+  </ul>
+
+  <!-- Section: Limitations and Future Enhancements -->
+  <h3>8. Limitations & Future Enhancements</h3>
+
+  <h4>Current Limitations</h4>
+  <ul>
+    <li>Runs locally in Microsoft Access only.</li>
+    <li>No authentication or user roles.</li>
+    <li>Limited scalability for large institutions.</li>
+  </ul>
+
+  <h4>Future Improvements</h4>
+  <ul>
+    <li>Convert to a web-based system using MySQL or PHP.</li>
+    <li>Add attendance and grading features.</li>
+    <li>Implement multi-user and cloud database syncing.</li>
+    <li>Include dashboards for analytics and reporting.</li>
+  </ul>
+
+  <!-- Section: Conclusion -->
+  <h3>9. Conclusion</h3>
+  <p>
+    The <strong>Student Database Management System</strong> demonstrates how Microsoft Access can create a complete school
+    information system that improves data accuracy and simplifies administration.
+  </p>
+
+  <!-- Footer with contact and external link -->
+  <footer class="site-footer">
+    <p>
+      &copy; 2025 <span class="nowrap">Hattingh Estian</span>. All rights
+      reserved. | Connect with me on
+      <a id="LinkedIn" class="link-external"
+        href="https://www.linkedin.com/in/estian-hattingh-6aa015315"
+        rel="noopener noreferrer" target="_blank"
+        aria-label="LinkedIn profile of Estian Hattingh (opens in new tab)">LinkedIn</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
