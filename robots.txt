@@ -1,0 +1,13 @@
+# robots.txt for estian-hattingh.co.za
+User-agent: *
+Allow: /
+
+# Disallow sensitive or unnecessary directories
+Disallow: /cv/
+Disallow: /certifications/
+Disallow: /logo-pictures/
+Disallow: /.vscode/
+Disallow: /projects/1.Lms/
+
+# Sitemap for search engine indexing
+Sitemap: https://estian-hattingh.co.za/sitemap.xml
